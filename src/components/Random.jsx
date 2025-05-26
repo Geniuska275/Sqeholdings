@@ -3,6 +3,7 @@ import { FaCopy } from "react-icons/fa";
 import Dropdowns from '../Dropdown';
 import Download from '../Download';
 import { FiDownload } from "react-icons/fi";
+import HistogramChart from './Histogram';
 
 function Random() {
   return (
@@ -27,6 +28,7 @@ function Random() {
 
 
         </div>
+        <HistogramChart/>
     </div>
   )
 }
