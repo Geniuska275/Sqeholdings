@@ -131,7 +131,7 @@ function Navbar() {
             </div>
             <div className='flex items-center gap-4 md:gap-6 md:mr-[40px]'>
             <LuSearch className='text-3xl text-gray-500 mx-[20px]'/>
-            <button className=' mr-[40px] rounded md:w-[150px] md:block bg-[#1b87fb] text-white px-4 py-2  font-[Poppins] font-bold'>Partner Login</button>
+            <button className=' mr-[40px] w-[100px] text-center rounded md:w-[150px] md:block bg-[#1b87fb] text-white px-4 py-2  font-[Poppins] font-bold'>Partner Login</button>
             </div>
         </div>
 
