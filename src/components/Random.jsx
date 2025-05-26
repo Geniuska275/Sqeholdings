@@ -7,10 +7,10 @@ import HistogramChart from './Histogram';
 
 function Random() {
   return (
-    <div className='bg-[#ffffff] col flex  gap-4 flex-wrap justify-center items-center  h-screen'>
+    <div className='bg-[#ffffff] col md:flex  gap-4 md:justify-around md:items-center'>
 
         <div className=''>
-            <div className='relative w-[300px] h-[300px] bg-[#f0f0f0] rounded-lg shadow-md mt-10'>
+            <div className='relative w-[300px] h-[300px] bg-[#f0f0f0] rounded-lg shadow-md '>
               
                    <FaCopy className='text-[#141d38] text-2xl absolute top-3 right-3' />
 
