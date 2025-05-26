@@ -23,10 +23,10 @@ function Navbar() {
             {/* brand */}
             <div className='flex items-center gap-2'>
             <a href=''>
-                <img src={image} className='w-[180px]'/>
+                <img src={image} className='w-[180px] h-[70px]'/>
             </a>
             {/* toggle button */}
-            <button onClick={() => setIsOpen(!isOpen)} className=' shadow w-[50px] h-[40px] flex justify-center items-center rounded-sm bg-[#1b87fb] md:hidden'>
+            <button onClick={() => setIsOpen(!isOpen)} className=' shadow w-[100px] h-[40px] flex justify-center items-center rounded-sm bg-[#1b87fb] md:hidden'>
              {isOpen ? <IoMdClose className='text-2xl text-white' /> :  <RxHamburgerMenu className='text-2xl text-white' />}
             </button>
             </div>
@@ -131,7 +131,7 @@ function Navbar() {
             </div>
             <div className='flex items-center gap-4 md:gap-6 md:mr-[40px]'>
             <LuSearch className='text-3xl text-gray-500 mx-[20px]'/>
-            <button className=' mr-[40px] w-[100px] text-center rounded md:w-[120px] md:block bg-[#1b87fb] text-white px-4 py-2  font-[Poppins] font-bold md:text-center'>Partner Login</button>
+            <button className=' mr-[30px] w-[100px] text-center rounded md:w-[120px] md:block bg-[#1b87fb] text-white px-4 py-2  font-[Poppins] font-bold md:text-center'>Partner Login</button>
             </div>
         </div>
 
