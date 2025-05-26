@@ -23,10 +23,10 @@ function Navbar() {
             {/* brand */}
             <div className='flex items-center gap-2'>
             <a href=''>
-                <img src={image} className='w-[150px]'/>
+                <img src={image} className='w-[180px]'/>
             </a>
             {/* toggle button */}
-            <button onClick={() => setIsOpen(!isOpen)} className=' shadow w-[40px] h-[40px] flex justify-center items-center rounded-sm bg-[#1b87fb] md:hidden'>
+            <button onClick={() => setIsOpen(!isOpen)} className=' shadow w-[50px] h-[50px] flex justify-center items-center rounded-sm bg-[#1b87fb] md:hidden'>
              {isOpen ? <IoMdClose className='text-2xl text-white' /> :  <RxHamburgerMenu className='text-2xl text-white' />}
             </button>
             </div>
