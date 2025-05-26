@@ -7,7 +7,7 @@ function App() {
  
 
   return (
-    <div className="bg-[#ffffff] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen ">
     <Navbar/>
     <Random/>
  
