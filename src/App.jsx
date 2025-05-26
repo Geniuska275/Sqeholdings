@@ -1,13 +1,22 @@
-
+import Footer from "./components/Footer"
+import Navbar from "./components/Navbar"
+import Random from "./components/Random";
+import Top from "./components/Top";
 
 function App() {
  
 
   return (
-    <>
-    <h1 className="bg-red-500 underline p-5">welcome back</h1>
+    <div className="bg-[#ffffff] min-h-screen">
+    <Navbar/>
+    <Random/>
+ 
+    <Top/>
+    <Footer/>
+    
+    
 
-    </>
+    </div>
   )
 }
 
