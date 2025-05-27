@@ -23,7 +23,7 @@ function Navbar() {
             {/* brand */}
             <div className='flex items-center gap-2'>
             <a href=''>
-                <img src={image} className='w-[180px] h-[70px]'/>
+                <img src={image} className='w-[200px] h-[70px]'/>
             </a>
             {/* toggle button */}
             <button onClick={() => setIsOpen(!isOpen)} className=' shadow w-[100px] h-[40px] flex justify-center items-center rounded-sm bg-[#1b87fb] md:hidden'>

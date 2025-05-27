@@ -45,7 +45,7 @@
                .call(d3.axisLeft(yScale));
        }, [data]);
    
-       return <svg ref={svgRef} width={500} height={400}></svg>;
+       return <svg ref={svgRef} width={350} height={400}></svg>;
    };
    
    export default HistogramChart;
