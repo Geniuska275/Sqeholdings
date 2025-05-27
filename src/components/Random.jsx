@@ -31,7 +31,7 @@ function Random() {
 
 
         </div>
-       <LineChart width={330} height={300} />
+       <LineChart width={300} height={300} />
         <div className='w-[200px] leading-[20px] mb-4  h-[340px] gap-4 p-[20px] rounded bg-[#f0f0f0] flex flex-col'>
           <h1 className='text-2xl mt-8'>Qualitative Analysis:</h1>
           <h1 className='text-2xl'>Entropy:</h1>
