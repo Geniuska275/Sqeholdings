@@ -29,8 +29,8 @@ function Random() {
 
         </div>
         <HistogramChart/>
-        <div className='w-[200px] h-[380px] gap-4 p-2 rounded bg-[#f0f0f0] flex flex-col'>
-          <h1 className='text-2xl'>Qualitative Analysis:</h1>
+        <div className='w-[200px] leading-[20px] mb-4  h-[360px] gap-4 p-[20px] rounded bg-[#f0f0f0] flex flex-col'>
+          <h1 className='text-2xl mt-8'>Qualitative Analysis:</h1>
           <h1 className='text-2xl'>Entropy:</h1>
           <h1 className='text-2xl'>Strd dev:</h1>
         </div>
