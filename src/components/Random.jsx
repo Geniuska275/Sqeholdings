@@ -4,6 +4,7 @@ import Dropdowns from '../Dropdown';
 import Download from '../Download';
 import { FiDownload } from "react-icons/fi";
 import HistogramChart from './Histogram';
+import LineChart from './LineChart';
 
 function Random() {
   return (
@@ -28,8 +29,8 @@ function Random() {
 
 
         </div>
-        <HistogramChart/>
-        <div className='w-[200px] leading-[20px] mb-4  h-[360px] gap-4 p-[20px] rounded bg-[#f0f0f0] flex flex-col'>
+       <LineChart width={350} height={300} />
+        <div className='w-[200px] leading-[20px] mb-4  h-[340px] gap-4 p-[20px] rounded bg-[#f0f0f0] flex flex-col'>
           <h1 className='text-2xl mt-8'>Qualitative Analysis:</h1>
           <h1 className='text-2xl'>Entropy:</h1>
           <h1 className='text-2xl'>Strd dev:</h1>
