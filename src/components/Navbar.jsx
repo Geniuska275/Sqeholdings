@@ -36,7 +36,7 @@ function Navbar() {
                     <h3 className='text-[#0f1940] font-bold font-[Poppins] '>About Us</h3>
                     <FaCaretDown className='text-[#0f1940] font-bold font-[Poppins]'/>
                 </div>
-                  {about && <div className=' shadow top-[60px] left-[310px] w-[120px] h-[190px] absolute bg-white'>
+                  {about && <div className=' shadow top-[60px] left-[360px] w-[120px] h-[190px] absolute bg-white'>
                     <h2 className='p-2 text-sm hover:bg-[#3f444c] hover:text-white font-[Poppins]'>
                         Company<br></br>
                         Overview
@@ -56,7 +56,7 @@ function Navbar() {
                     <h3 className='text-[#0f1940] font-bold font-[Poppins]'>Solutions</h3>
                     <FaCaretDown className='text-[#0f1940] font-bold font-[Poppins]'/>
                 </div>
-                 {solution && <div className=' shadow top-[60px] left-[430px] w-[120px] h-[220px] absolute bg-white'>
+                 {solution && <div className=' shadow top-[60px] left-[460px] w-[120px] h-[220px] absolute bg-white'>
                     <h2 className=' py-3 text-center text-sm hover:bg-[#3f444c] hover:text-white font-[Poppins]'>
                         Industries &<br></br>
                         Applications
@@ -76,7 +76,7 @@ function Navbar() {
                     <h3 className='text-[#0f1940] font-bold font-[Poppins]'>Network</h3>
                     <FaCaretDown className='text-[#0f1940] font-bold font-[Poppins]'/>
                 </div>
-                {network && <div  className=' shadow top-[60px] left-[530px] w-[120px] h-[200px] absolute bg-white'>
+                {network && <div  className=' shadow top-[60px] left-[560px] w-[120px] h-[200px] absolute bg-white'>
                     <h2 className=' py-3 text-center text-sm hover:bg-[#3f444c] hover:text-white font-[Poppins]'>
                         SQE platform
                     </h2>
@@ -97,7 +97,7 @@ function Navbar() {
                     <h3 className='text-[#0f1940] font-bold font-[Poppins]'>Partner</h3>
                     <FaCaretDown className='text-[#0f1940] font-bold font-[Poppins]'/>
                 </div>
-                  {partner && <div  className=' shadow top-[60px] left-[630px] w-[120px] h-[170px] absolute bg-white'>
+                  {partner && <div  className=' shadow top-[60px] left-[660px] w-[120px] h-[170px] absolute bg-white'>
                     <h2 className=' py-3 text-center text-sm hover:bg-[#3f444c] hover:text-white font-[Poppins]'>
                         queVANTAGE <br></br>
                         Partner Program
@@ -115,7 +115,7 @@ function Navbar() {
                     <h3 className='text-[#0f1940] font-bold font-[Poppins]'>Learn</h3>
                     <FaCaretDown className='text-[#0f1940] font-bold font-[Poppins]'/>
                 </div> 
-                 {learn && <div  className=' shadow top-[60px] left-[760px] w-[120px] h-[100px] absolute bg-white'>
+                 {learn && <div  className=' shadow top-[60px] left-[790px] w-[120px] h-[100px] absolute bg-white'>
                     <h2 className=' py-3 text-center text-sm hover:bg-[#3f444c] hover:text-white font-[Poppins]'>
                         Learning Hub 
                         Partner Program
