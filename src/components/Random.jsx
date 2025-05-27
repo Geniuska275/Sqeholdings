@@ -24,7 +24,9 @@ function Random() {
           <Dropdowns/>
           <input type="text" className=' mb-3 w-[150px] h-[40px] rounded-md border-2 border-[#141d38] px-4 py-2 mt-4' placeholder='Enter Size...' />
           <Download/>
-          <button className=' flex gap-1 rounded md:w-[130px] md:block bg-[#141d38] text-center text-white px-4 py-2 font-[Poppins] font-bold my-3'> Download
+          <button className='bg-[#141d38] gap-1 flex items-center text-white px-[40px] py-2 font-[Poppins] font-bold rounded'> 
+            Download
+            <FiDownload className='text-xl'/>
           </button>
 
 

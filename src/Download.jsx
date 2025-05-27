@@ -7,13 +7,14 @@ import {
   ChevronRightIcon,
 } from '@radix-ui/react-icons';
 import './Style.css';
-
+import { FaCaretDown } from "react-icons/fa6";
 const Download = () => {
   return (
     <DropdownMenu.Root>
       <DropdownMenu.Trigger asChild>
-        <button  aria-label="Customise options" className='bg-[#1b87fb] text-white px-4 py-2 font-[Poppins] font-bold rounded'>
-            Download Format     
+        <button  aria-label="Customise options" className='bg-[#1b87fb] flex items-center text-white px-4 py-2 font-[Poppins] font-bold rounded'>
+            Download Format  
+            <FaCaretDown/>   
         </button>
       </DropdownMenu.Trigger>
       <DropdownMenu.Portal>
