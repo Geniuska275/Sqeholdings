@@ -1,7 +1,7 @@
 
 
 import { useState } from "react"
-import HistogramChart from "./histogram-chart.jsx"
+import HistogramChart from "./histogram-chart"
 import QualitativeAnalysis from "./qualitative-analysis"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card"
