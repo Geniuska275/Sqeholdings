@@ -1,10 +1,10 @@
-"use client"
+
 
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from "recharts"
-import { Card, CardContent } from "../components/ui/card"
+import { Card, CardContent } from "./ui/card"
 
 export default function HistogramChart({ data }) {
-  const { histogram, metrics } = data
+  const { histogram} = data
 
   // Determine if we have categorized data
   const hasCategories = histogram.some((item) => item.category !== undefined)
