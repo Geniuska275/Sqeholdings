@@ -1,3 +1,4 @@
+import Dashboard from "./components/Dashboard";
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Random from "./components/Random";
@@ -9,7 +10,7 @@ function App() {
   return (
     <div className="bg-[#ffffff] min-h-screen ">
     <Navbar/>
-    <Random/>
+     <Dashboard/>
  
     <Top/>
     <Footer/>
