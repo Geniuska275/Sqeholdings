@@ -1,7 +1,7 @@
    import React, { useRef, useEffect } from 'react';
    import * as d3 from 'd3';
    
-   const data = [5, 10, 12, 15, 20, 22, 28, 30, 31, 50];
+   const data = [5, 10, 12, 15, 20, 22, 28, 30, 31, 50,];
    
    const HistogramChart = () => {
        const svgRef = useRef();
@@ -45,7 +45,7 @@
                .call(d3.axisLeft(yScale));
        }, [data]);
    
-       return <svg ref={svgRef} width={350} height={400}></svg>;
+       return <svg ref={svgRef} width={550} height={400}></svg>;
    };
    
    export default HistogramChart;

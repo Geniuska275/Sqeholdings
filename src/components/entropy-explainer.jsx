@@ -1,6 +1,7 @@
 import { Info } from "lucide-react"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "../components/ui/tooltip"
 import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
+import { Cards } from "./ui/cards"
 
 
 export default function EntropyExplainer({ entropyValue }) {
@@ -33,17 +34,17 @@ export default function EntropyExplainer({ entropyValue }) {
   const interpretation = getEntropyInterpretation(entropyValue)
 
   return (
-    <Card>
+    <Cards>
       <CardHeader>
       </CardHeader>
       <CardContent>
-        <div className="space-y-4">
+        <div className="space-y-1">
           <div className="flex items-center justify-between">
-            <span className="text-lg font-medium text-[#141d38]"> Entropy:</span>
+            <span className="text-lg font-medium text-[#141d38]">Shannon's Entropy:</span>
             <span className={`text-lg font-bold ${interpretation.color}`}>{entropyValue.toFixed(2)}</span>
           </div>
 
-          <div className="w-full bg-muted rounded-full h-2.5">
+          <div className="w-full bg-muted rounded-full h-1.5">
             <div
               className={`h-2.5 rounded-full ${
                 entropyValue < 1.0 ? "bg-blue-600" : entropyValue < 2.5 ? "bg-green-600" : "bg-amber-600"
@@ -53,15 +54,10 @@ export default function EntropyExplainer({ entropyValue }) {
           </div>
 
         
-          <div className="mt-4 space-y-2">
-            <p className="font-medium">
-              Interpretation: <span className={interpretation.color}>{interpretation.level}</span>
-            </p>
-          
-          </div>
+         
 
         </div>
       </CardContent>
-    </Card>
+    </Cards>
   )
 }

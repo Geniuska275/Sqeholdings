@@ -68,7 +68,7 @@ button {
 .DropdownMenuRadioItem[data-highlighted],
 .DropdownMenuSubTrigger[data-highlighted] {
   background-color:#141d38;
-  color: var(--violet-1);
+  color:whitesmoke;
 }
 
 

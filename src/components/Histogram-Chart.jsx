@@ -32,8 +32,8 @@ export default function HistogramChart({ data }) {
 
   return (
     <div className="w-full h-full">
-      <ResponsiveContainer width="100%" height="85%">
-        <BarChart data={hasCategories ? groupedData : histogram} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+      <ResponsiveContainer width="100%" height="95%">
+        <BarChart data={hasCategories ? groupedData : histogram} margin={{ top: 80, right: 30, left: 20, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="bin" />
           <YAxis label={{ value: "Frequency", angle: -90, position: "insideLeft" }} />

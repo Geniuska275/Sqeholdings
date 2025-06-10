@@ -5,7 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa6";
 function Footer() {
   return (
-    <div className='bg-[#141d38] text-white md:p-[40px] mt-[]'>
+    <div className='bg-[#141d38] text-white md:p-[40px] mt-[80px]'>
         <div className="md:flex md:justify-between md:items-center ">
             <div className=" text-center p-[20px]">
                 <h1 className="font-bold text-2xl font-[Poppins] mb-2">Company</h1>
