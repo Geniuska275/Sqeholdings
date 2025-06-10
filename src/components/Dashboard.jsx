@@ -38,11 +38,11 @@ export default function Dashboard() {
           12,34,5,6,74,4,300,4,8,3,3,993,83,30,4,80,3,95,3,3,40,39,38,30,20
 
         </div>
-        <button className='bg-[#141d38] my-3 w-[300px] md:w-[320px] text-center text-white px-[40px] py-2 font-[Poppins] font-bold rounded '> 
+        <button className='bg-[#141d38] my-3 w-[200px] md:w-[320px] text-center text-white px-[40px] py-2 font-[Poppins] font-bold rounded '> 
                       GENERATE
                       
                     </button>
-                 <button className='bg-[#141d38] w-[300px] md:w-[320px] gap-1 flex items-center text-center  text-white px-[40px] py-2 font-[Poppins] font-bold rounded'> 
+                 <button className='bg-[#141d38] w-[200px] md:w-[320px] gap-1 flex items-center text-center  text-white px-[40px] py-2 font-[Poppins] font-bold rounded'> 
 
                       <span className="ml-[100px]">DOWNLOAD</span>
                       <FiDownload className='text-xl'/>
