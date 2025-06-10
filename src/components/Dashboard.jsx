@@ -44,7 +44,7 @@ export default function Dashboard() {
                     </button>
                  <button className='bg-[#141d38] w-[200px] md:w-[320px] gap-1 flex items-center text-center  text-white px-[40px] py-2 font-[Poppins] font-bold rounded'> 
 
-                      <span className="ml-[100px]">DOWNLOAD</span>
+                      <span className="md:ml-[100px]">DOWNLOAD</span>
                       <FiDownload className='text-xl'/>
                     </button>          
         
