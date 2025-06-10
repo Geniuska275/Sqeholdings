@@ -53,7 +53,7 @@ export default function Dashboard() {
        
 
        </div>
-       <div className=" flex p-2 flex-col gap-[40px] border w-[200px] h-[400px] rounded-md shadow-md border">
+       <div className=" mt-4 flex p-2 flex-col gap-[40px] border w-[200px] h-[400px] rounded-md shadow-md border">
           <Dropdowns/>
           <Source/>
           <Size/>
