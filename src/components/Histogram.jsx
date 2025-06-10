@@ -5,7 +5,9 @@
    
    const HistogramChart = () => {
        const svgRef = useRef();
-   
+       const screenwidth=window.screen.width;
+       console.log(screenwidth)
+
        useEffect(() => {
            const svg = d3.select(svgRef.current);
            const width = 600;
@@ -45,7 +47,7 @@
                .call(d3.axisLeft(yScale));
        }, [data]);
    
-       return <svg ref={svgRef} width={550} height={400}></svg>;
+       return <svg ref={svgRef} width={ screenwidth >1000 ?550: 350} height={400}></svg>;
    };
    
    export default HistogramChart;
