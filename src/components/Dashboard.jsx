@@ -63,7 +63,7 @@ export default function Dashboard() {
                     </button>
 
        </div>
-       <div>    
+       <div className="mt-4">    
            <div className="flex items-center justify-between">
             <span className="text-xl font-medium text-[#141d38] ml-3">Shannon's Entropy:</span>
             <span className={`text-lg font-bold`}>{entropyValue.toFixed(2)}</span>
