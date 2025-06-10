@@ -32,17 +32,17 @@ export default function Dashboard() {
       <div className="flex flex-wrap justify-evenly items-center ">
        <div>
         <h1 className="text-xl text-center font-bold">RANDOM DATA</h1>
-        <div className="w-[400px] h-[340px] border shadow-md overflow-auto">
+        <div className=" w-[300px] md:w-[400px] h-[340px] border shadow-md overflow-auto">
           12,34,5,6,74,4,300,4,8,3,3,993,83,30,4,80,3,95,3,3,40,39,38,30,20,
           12,34,5,6,74,4,300,4,8,3,3,993,83,30,4,80,3,95,3,3,40,39,38,30,20
           12,34,5,6,74,4,300,4,8,3,3,993,83,30,4,80,3,95,3,3,40,39,38,30,20
 
         </div>
-        <button className='bg-[#141d38] my-3 w-[320px] text-center text-white px-[40px] py-2 font-[Poppins] font-bold rounded '> 
+        <button className='bg-[#141d38] my-3 w-[300px] md:w-[320px] text-center text-white px-[40px] py-2 font-[Poppins] font-bold rounded '> 
                       GENERATE
                       
                     </button>
-                 <button className='bg-[#141d38] w-[320px] gap-1 flex items-center text-center  text-white px-[40px] py-2 font-[Poppins] font-bold rounded'> 
+                 <button className='bg-[#141d38] w-[300px] md:w-[320px] gap-1 flex items-center text-center  text-white px-[40px] py-2 font-[Poppins] font-bold rounded'> 
 
                       <span className="ml-[100px]">DOWNLOAD</span>
                       <FiDownload className='text-xl'/>
