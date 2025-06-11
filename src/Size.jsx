@@ -23,17 +23,20 @@ const Size = () => {
              <DropdownMenu.Item className="DropdownMenuItem" onClick={()=>setSize("size")}>
             Size
           </DropdownMenu.Item>
-          <DropdownMenu.Item className="DropdownMenuItem" onClick={()=>setSize(2)}>
-            2
+          <DropdownMenu.Item className="DropdownMenuItem" onClick={()=>setSize(100)}>
+            100
           </DropdownMenu.Item>
-          <DropdownMenu.Item className="DropdownMenuItem" onClick={()=>setSize(4)} >
-           4
+          <DropdownMenu.Item className="DropdownMenuItem" onClick={()=>setSize("1K")} >
+           1K
           </DropdownMenu.Item>
-          <DropdownMenu.Item className="DropdownMenuItem" onClick={()=>setSize(6)} >
-            6
+          <DropdownMenu.Item className="DropdownMenuItem" onClick={()=>setSize('10K')} >
+            10K
           </DropdownMenu.Item>
-          <DropdownMenu.Item className="DropdownMenuItem" onClick={()=>setSize(8)} >
-            8
+          <DropdownMenu.Item className="DropdownMenuItem" onClick={()=>setSize('100K')} >
+            100K
+          </DropdownMenu.Item>
+          <DropdownMenu.Item className="DropdownMenuItem" onClick={()=>setSize('1M')} >
+            1M
           </DropdownMenu.Item>
           
           <DropdownMenu.Arrow className="DropdownMenuArrow" />

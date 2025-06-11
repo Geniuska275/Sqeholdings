@@ -24,8 +24,8 @@ const Dropdowns = () => {
            <DropdownMenu.Item className="DropdownMenuItem" onClick={()=>setFormat("Number Format")}>
             Number Format
           </DropdownMenu.Item>
-          <DropdownMenu.Item className="DropdownMenuItem" onClick={()=>setFormat("Binary")}>
-            Binary
+          <DropdownMenu.Item className="DropdownMenuItem" onClick={()=>setFormat("Bin")}>
+            Bin
           </DropdownMenu.Item>
           <DropdownMenu.Item className="DropdownMenuItem" onClick={()=>setFormat("Hex")} >
            Hex
